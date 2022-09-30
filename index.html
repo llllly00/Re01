@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>第一个网站</title>
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        background-size: cover;
+        background-image: url("tu/src=http___pic1.win4000.com_wallpaper_2020-10-28_5f99180e8dd5a.jpg&refer=http___pic1.win4000.webp");
+      }
+      /* * {
+        border: 1px solid black;
+      } */
+      @keyframes rotate360 {
+        from {
+          transform: rotate(0);
+        }
+
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      .flex {
+        display: flex;
+      }
+      .column {
+        flex-direction: column;
+      }
+      .flex1 {
+        flex: 1;
+      }
+      .ziTi30 {
+        font-size: 30px;
+      }
+      .baiSe {
+        color: white;
+      }
+      .headImg {
+        width: 180px;
+        height: 180px;
+        border: solid 10px #fff;
+        border-radius: 50%;
+        box-shadow: 3px 3px 10px rgb(185, 185, 185);
+        background-image: url("tu/dha.jpg");
+        background-size: contain;
+        animation: rotate360 10s linear infinite;
+        margin: 0 auto;
+        margin-top: 10vh;
+      }
+    </style>
+  </head>
+  <body class="flex column">
+    <!-- 内容 -->
+    <div class="flex1">
+      <audio
+        src="Music/7evrt1 - Letter That Writing in the Wind (0.75x).mp3"
+        autoplay
+      ></audio>
+      <div class="headImg"></div>
+      <p style="text-align: center" class="ziTi30 baiSe">
+        欢迎来到我的个人主页
+      </p>
+    </div>
+    <!-- 结尾 -->
+    <div style="height: 100px">
+      <div style="text-align: center">
+        <p class="ziTi30 baiSe">
+          动漫网站推荐<a href="http://www.mxdm8.com">mcdm.cc</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
